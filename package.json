@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "topup-mainnet-relay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "topupMainnetRelay.js",
+  "scripts": {
+    "start": "forever start -o out.log -e err.log topupMainnetRelay.js"
+  },
+  "author": "Busher",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "ethers": "^6.10.0",
+    "forever": "^4.0.3",
+    "https-proxy-agent": "^7.0.2",
+    "node-fetch": "^3.3.2",
+    "winston": "^3.11.0",
+    "ccxt": "^4.2.11"
+  }
+}
